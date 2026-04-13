@@ -1,4 +1,4 @@
-# Advanced C++ File Compression Tool
+# File Compression Tool
 
 A production-grade file compression utility built with **Modern C++ (C++17)**. This tool implements multiple compression strategies and features a polished, recruiter-ready command-line interface.
 
