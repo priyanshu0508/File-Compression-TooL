@@ -1,0 +1,68 @@
+# ============================================
+# Build & Output Directories
+# ============================================
+build/
+Build/
+bin/
+out/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ============================================
+# CMake Generated Files
+# ============================================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ============================================
+# C++ Artifacts
+# ============================================
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# ============================================
+# IDE & System Files
+# ============================================
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Project-Specific Artifacts
+# ============================================
+# Ignore specific test executables
+tests/test_suite
+tests/test_suite.exe
+
+# Ignore temporary compression artifacts
+*.bin
+*_restored*
+restored_*
+main_compressed.bin
+main_restored.cpp
+readme_huffman.bin
+readme_lzw.bin
+README_RESTORED*
+
+# ============================================
+# Agent/Tool Files
+# ============================================
+.gemini/
